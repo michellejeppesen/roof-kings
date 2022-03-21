@@ -115,37 +115,16 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
-@media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
-    line-height: 2;
-  }
 
-  h2 {
-    font-size: 44px;
-  }
+.mobile-logo {
+  max-width: 120px;
+}
 
-  .black-header {
-    display: block;
-    margin: 0 auto;
-  }
+.mobile-header {
+  background-color: #8B1400;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
   
-  .logo {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-
-  .content {
-    text-align: center;
-    padding: 0;
-  }
-
-  nav a {
-    font-size: 12px;
-  }
 }
